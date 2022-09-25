@@ -1,7 +1,6 @@
 import React from "react";
 import "./FoodItems.css";
 import FoodCard from "../FoodCard/FoodCard";
-import { foodRecords } from "../../store/data";
 
 function FoodItems() {
   return (
