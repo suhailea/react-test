@@ -1,0 +1,46 @@
+.food_card {
+  background: #f2f2f2;
+  padding: 10px;
+}
+
+.header_label {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #30384d;
+}
+
+.food {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.food_details {
+  padding: 5px;
+}
+
+img {
+  width: 200px;
+  height: 140px;
+  border-radius: 5px;
+}
+
+.food_name {
+  font-weight: 700;
+  font-size: 0.85em;
+  color: #30384d;
+}
+
+.food_description {
+  font-weight: 500;
+  font-size: 0.7em;
+  color: #7e8a9a;
+}
+
+@media screen and (max-width: 1000px) {
+  .food_card {
+    background: #f2f2f2;
+    padding: 7px;
+  }
+}

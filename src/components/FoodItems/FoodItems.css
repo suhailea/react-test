@@ -1,0 +1,56 @@
+.header {
+  font-size: 1.2rem;
+  color: #30384d;
+  font-weight: bold;
+  padding: 5px;
+  border-bottom: 3px solid black;
+}
+
+::placeholder {
+  color: #7e8a9a;
+}
+
+h4 {
+  font-weight: bold 1.2em;
+  color: #30384d;
+}
+
+.search_input i {
+  position: absolute;
+  top: 49px;
+  margin-left: 5px;
+  color: #7e8a9a;
+}
+
+input {
+  border: #30384d;
+  margin-top: 10px;
+  border-radius: 5px;
+  text-indent: 20px;
+  padding: 5px;
+  width: 99%;
+  background: #f2f2f2;
+}
+.food_card {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+  .food_items {
+    padding: 20px;
+    width: 230px;
+  }
+  .search_input {
+    width: 220px;
+    background: #f2f2f2;
+  }
+  .search_input i {
+    position: absolute;
+    top: 68px;
+    margin-left: 5px;
+    color: #7e8a9a;
+  }
+}
